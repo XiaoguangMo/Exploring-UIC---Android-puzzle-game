@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shanlu12"
+    android:orientation="vertical" >
+
+    
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="854dp"
+        android:layout_height="180dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/button12"
+        style="@drawable/yaoshi"
+        android:layout_width="854dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button11"
+        android:background="@android:color/transparent"
+        android:text=""/>
+    
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="38dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="46dp"
+        android:layout_toLeftOf="@+id/button10"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="38dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@+id/button9"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="38dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@+id/button8"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="38dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@+id/button7"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="38dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@+id/button6"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="38dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@+id/button5"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="38dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@+id/button4"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="38dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@+id/button3"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="40dp"
+        android:layout_toLeftOf="@+id/button2"
+        android:background="@android:color/transparent" />
+</RelativeLayout>
